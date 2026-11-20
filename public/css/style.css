@@ -1,0 +1,258 @@
+/* ===== Dasar ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    color: #001233;
+}
+
+/* ===== Sidebar (kotak biru di kiri) ===== */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 170px;
+    background-color: #001233;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 40px 35px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 18px 35px;
+    color: white;
+    text-decoration: none;
+}
+
+/* menu yang sedang dibuka */
+.sidebar a.aktif {
+    background-color: white;
+    color: #001233;
+    font-weight: bold;
+}
+
+/* ===== Isi halaman (di kanan sidebar) ===== */
+.isi {
+    margin-left: 170px;
+}
+
+.topbar {
+    background-color: white;
+    padding: 18px 20px;
+    font-size: 11px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.topbar .admin {
+    float: right;
+}
+
+.konten {
+    padding: 35px 20px;
+    min-height: 450px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.subjudul {
+    margin: 5px 0 30px 0;
+    font-size: 12px;
+    color: #555555;
+}
+
+/* ===== Pesan sukses ===== */
+.sukses {
+    background-color: #d9f2de;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* ===== Baris cari, filter, tombol tambah ===== */
+.cari {
+    width: 60%;
+    padding: 10px;
+}
+
+.filter {
+    padding: 10px;
+}
+
+.tombol-tambah {
+    background-color: #001233;
+    color: white;
+    padding: 11px 15px;
+    text-decoration: none;
+}
+
+/* ===== Tabel ===== */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #d0d3da;
+    text-align: left;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* tombol Hapus dibuat kelihatan seperti tulisan biasa */
+.hapus {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    color: #001233;
+    cursor: pointer;
+}
+
+.aksi form {
+    display: inline;
+}
+
+/* ===== Form ===== */
+.kotak-form {
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+
+.kolom {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.kolom-penuh {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input, select, textarea {
+    width: 95%;
+    padding: 9px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+/* ===== Tombol ===== */
+.tombol-batal {
+    border: 1px solid gray;
+    color: gray;
+    padding: 9px 15px;
+    text-decoration: none;
+}
+
+.tombol-simpan {
+    background-color: #001233;
+    color: white;
+    border: none;
+    padding: 11px 15px;
+    cursor: pointer;
+}
+
+/* ===== Footer ===== */
+.footer {
+    background-color: #001233;
+    color: white;
+    padding: 30px 20px 30px 190px;
+    font-size: 12px;
+}
+
+/* ===== Halaman Lihat (show) ===== */
+.tombol-edit {
+    background-color: #001233;
+    color: white;
+    padding: 11px 15px;
+    text-decoration: none;
+}
+
+.btn-wrapper {
+    margin-top: 20px;
+}
+
+.btn-kembali {
+    border: 1px solid gray;
+    color: gray;
+    padding: 9px 15px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-edit {
+    background-color: #001233;
+    color: white;
+    padding: 11px 15px;
+    text-decoration: none;
+}
+
+/* ===== Tombol keluar ===== */
+.form-keluar {
+    display: inline;
+    margin-left: 10px;
+}
+
+.keluar {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 11px;
+    color: #001233;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* ===== Halaman login ===== */
+.halaman-login {
+    background-color: #001233;
+}
+
+.kotak-login {
+    width: 350px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.logo-login {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.kotak-login input {
+    width: 95%;
+}
+
+.gagal {
+    background-color: #f8d7da;
+    color: #842029;
+    padding: 10px;
+    margin-bottom: 15px;
+}
